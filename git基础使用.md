@@ -9,6 +9,8 @@
 2. 任何一个文件夹里面有`.git`就是初始化好了之后，就可以使用`pull`命令拉取远程仓库
    如：`git pull origin main`或者`git pull origin emg_classify`，前者是拉取main分支，后者是拉取emg_classify分支，origin为远程仓库别名。
 
+   > **注意**：clone不需要秘钥，但是pull需要ssh秘钥，需要事先配置！而且首次配置和第二次配置步骤不同！！
+
 3. 使用`clone`命令会克隆一个仓库到本地
    如：`git clone git@github.com:bloomofus/smalTestPOJ.git`或者`git clone git@github.com:bloomofus/smalTestPOJ.git newfolder`，两者区别在于后者会将克隆好的代码放在newfolder文件夹里面。
 
