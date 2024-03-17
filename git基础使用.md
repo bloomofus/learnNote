@@ -14,6 +14,8 @@
 3. 使用`clone`命令会克隆一个仓库到本地
    如：`git clone git@github.com:bloomofus/smalTestPOJ.git`或者`git clone git@github.com:bloomofus/smalTestPOJ.git newfolder`，两者区别在于后者会将克隆好的代码放在newfolder文件夹里面。
 
+4. 在别的全新的平台使用git管理你的仓库，建议直接克隆你的远程仓库，再pull你需要的branch。
+
 ## 基础文件操作、提交命令
 
 1. 查看状态`git status`
