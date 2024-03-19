@@ -34,8 +34,9 @@
 ## 分支命令
 
 1. 查看分支`git branch`，分支的存在是为了多种特性并行研发的关键，一般主分支命名为main，子分支随意，子分支里面的独特内容不会被主分支和其他分支看到（**注意 **：空文件夹不被git认可，因此在子分支中存在空文件夹，任何分支都能看到。）
-2. 切换分支`git switch emg_classify`，切换到我的emg_classify分支。
-3. 分支重命名`git branch -m newName`，必须有`-m`参数。
+2. 创建分支`git branch newBranch`，创建后使用`git branch`检查，然后使用`git switch newBranch`切换到新创建的分支。
+3. 切换分支`git switch emg_classify`，切换到我的emg_classify分支。
+4. 分支重命名`git branch -m newName`，必须有`-m`参数。
 
 ## pull与push命令
 
