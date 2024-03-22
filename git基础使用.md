@@ -10,11 +10,16 @@
    如：`git pull origin main`或者`git pull origin emg_classify`，前者是拉取main分支，后者是拉取emg_classify分支，origin为远程仓库别名。
 
    > **注意**：clone不需要秘钥，但是pull需要ssh秘钥，需要事先配置！而且首次配置和第二次配置步骤不同！！
-
+   >
+   > ```bash
+   > # 首次密钥的命令
+   > ssh-keygen
+   > ```
+   
 3. 使用`clone`命令会克隆一个仓库到本地
    如：`git clone git@github.com:bloomofus/smalTestPOJ.git`或者`git clone git@github.com:bloomofus/smalTestPOJ.git newfolder`，两者区别在于后者会将克隆好的代码放在newfolder文件夹里面。
 
-4. 在别的全新的平台使用git管理你的仓库，建议直接克隆你的远程仓库，再pull你需要的branch。
+4. 在别的全新的平台使用git管理你的仓库，建议直接克隆你的远程仓库（这一步不需要你创建一个新的仓库，并且初始化，直接克隆到指定文件夹即可），再pull你需要的branch。
 
 ## 基础文件操作、提交命令
 
