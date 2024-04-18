@@ -34,7 +34,8 @@
 1. 建立连接：命令`git remote add origin git@github.com:bloomofus/smalTestPOJ.git`，这样就根据我的github远程仓库smalTestPOJ创建了一个连接，远程仓库别名为origin。
    注意仓库结尾时`.git`。
 2. 查看建立的连接：`git remote -v`
-3. 重命名连接：？？？
+3. 重命名连接：`git remote rename origin new-origin`
+4. 更新远程仓库url：`git remote set-url new-origin https://new.url/for/your/repo.git`
 
 ## 分支命令
 
